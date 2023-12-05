@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fearxsearch</title>
+</head>
+<body>
+
+    <video autoplay muted loop id="video-background">
+        <source src="res/3.webm" type="video/mp4">
+        Your browser does not support HTML5 video.
+    </video>
+    
+
+
+    <h1 id="baslikiki">Fearxy search</h1>
+    <form id="search-form" action="https://www.google.com/search" method="get" target="_blank">
+            <input type="text" autocomplete="off" id="inp-search" name="q" placeholder="Google'da ara">
+
+        </div>
+    </form>
+    <div class="linkler">
+        <div class="cevir">
+            <a href="https://www.deepl.com/translator"><i class="fa fa-language"></i></a>
+        </div>
+        <div class="googletarayici">
+            <a href="https://www.google.com"><i class="fab fa-google"></i></a>
+        </div>
+        <div class="gpt">
+            <a href="https://chat.openai.com"><i class="fa fa-comment-dots"></i></a>
+        </div>
+    </div>
+
+    <div class="alt-satir-linkler">
+        <div class="youtube">
+            <a href="https://www.youtube.com"><i class="fab fa-youtube"></i></a>
+        </div>
+        <div class="instagram">
+            <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+        </div>
+    </div>
+
+    <div class="imza">
+        <a href="https://www.instagram.com/fear.7884/"><p class="uzl">Coded by</p></a>
+
+        <div class="github">
+            <a href="https://github.com/voidfearxy"><i class="fab fa-github" style="font-size: 14.5px;"></i></a>
+        </div>
+        <div class="instagram">
+            <a href="https://www.instagram.com/fear.7884/"><i class="fab fa-instagram" style="font-size: 16px;"> </i></a>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById("search-form").addEventListener("submit", function(event) {
+    event.preventDefault(); 
+
+    var input = document.getElementById("inp-search");
+    if (input.value.trim() !== "") { 
+        var searchQuery = input.value.trim(); 
+        var url = "https://www.google.com/search?q=" + encodeURIComponent(searchQuery); 
+        window.open(url, "_blank"); 
+        input.value = ""; 
+    }
+});
+
+
+
+
+    </script>
+</body>
+</html>
