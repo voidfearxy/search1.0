@@ -45,7 +45,7 @@ body, html {
     position: absolute;
     left: 50%;
     transform: translate(-50%, -50%);
-    top: 15%;
+    top: 20%;
 }
 
 .uzl {
@@ -84,7 +84,7 @@ body, html {
     position: absolute;
     display: flex;
     flex-direction: row;
-    top: 70%;
+    top: 62%;
     transform: translateX(-50%);
 }
 
@@ -108,7 +108,7 @@ body, html {
     position: absolute;
     display: flex;
     flex-direction: row;
-    top: 60%;
+    top: 50%;
     transform: translateX(-50%);
 }
 
