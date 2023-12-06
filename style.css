@@ -120,7 +120,7 @@ body, html {
     border: none;
     border-bottom: 3px solid rgb(110, 164, 190);
     width: 70%;
-    top: 42%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: rgb(175, 175, 175);
@@ -136,7 +136,7 @@ body, html {
     border: none;
     border-bottom: 3px solid rgb(255, 255, 255);
     position: absolute;
-    top: calc(42% + 0px); /* inputun altına yerleştir, 30px boşluk bırak */
+    top: calc(40% + 0px); /* inputun altına yerleştir, 30px boşluk bırak */
     left: 50%;
     transform: translateX(-50%) scaleX(0); /* ScaleX ile başlangıçta genişliği sıfıra ayarla */
     width: 100%;
