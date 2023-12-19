@@ -82,11 +82,7 @@ document.getElementById("search-form").addEventListener("submit", function(event
         }else if (searchQuery.toLowerCase().endsWith(".wp")) { 
             var wpSearchQuery = searchQuery.slice(0, -3); 
             url = "https://wa.me/" + encodeURIComponent(wpSearchQuery);
-      
-        }else if (searchQuery.toLowerCase().endsWith(".com")) { 
-            var wpSearchQuery = searchQuery.slice(31, -4); 
-            url = "" + encodeURIComponent(wpSearchQuery);
-
+            
         } else { 
             url = "https://www.google.com/search?q=" + encodeURIComponent(searchQuery); 
         }
